@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{ddb17eba-e15e-4597-8bf6-064b16b159d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{72056cb6-72a2-42b7-b05e-376f1ddd957e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer">
+      <UniqueIdentifier>{ebb20615-a72e-4d83-8f63-bb8af14a35c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Mesh">
+      <UniqueIdentifier>{eff10ec3-2925-4960-bd48-2490bc06a3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Material">
+      <UniqueIdentifier>{4a7a133e-138d-410c-aedb-61997c63d6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Texture">
+      <UniqueIdentifier>{b7c6d603-b40d-4bc9-be0d-9402f4e28b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Structs">
+      <UniqueIdentifier>{de09f4f0-f356-4a5e-bc6a-d288c35d56d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Helpers">
+      <UniqueIdentifier>{6a62cd04-f75c-432e-9673-7fed896cb62e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMathUtilities.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ERenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ERGBColor.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ETimer.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="TexturedMaterial.h">
+      <Filter>Rasterizer\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Rasterizer\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffuseMaterial.h">
+      <Filter>Rasterizer\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="EOBJParser.h">
+      <Filter>Rasterizer\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ECamera.h">
+      <Filter>Rasterizer\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Rasterizer\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Rasterizer\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Rasterizer\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Rasterizer\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ERenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ETimer.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="TexturedMaterial.cpp">
+      <Filter>Rasterizer\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffuseMaterial.cpp">
+      <Filter>Rasterizer\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Rasterizer\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ECamera.cpp">
+      <Filter>Rasterizer\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Rasterizer\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Rasterizer\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Rasterizer\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
